@@ -2,70 +2,64 @@
 using System.Reflection.Metadata;
 using System.Transactions;
 
-namespace bookStore
+namespace myProject
 {
-    class myStore
+    class myProject
     {
         static void Main(string[] args)
         {
 
-            book bk1 = new book();
-            bk1.SetTrans();
-            bk1.Id = 1;
-            bk1.Author = ("Miller");
-            bk1.Title = ("The Book");
+            SchoolProject sp1 = new SchoolProject();
+            sp1.Id = 119;
+            sp1.Instructor = ("Doebek");
+            sp1.Title = ("Astronomy");
             
-            book bk2 = new book();
-            bk2.SetTrans();
-            Console.WriteLine("Please enter the book ID: ");
-            bk2.Id = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter the author name: ");
-            bk2.Author = Console.ReadLine();
-            Console.WriteLine("Please enter the book title: ");
-            bk2.Title = Console.ReadLine();
+            SchoolProject sp2 = new SchoolProject();
+            Console.WriteLine("Please enter the class ID(number only): ");
+            sp2.Id = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter the instructor's name: ");
+            sp2.Instructor = Console.ReadLine();
+            Console.WriteLine("Please enter the class title: ");
+            sp2.Title = Console.ReadLine();
 
-            book bk3 = new book(3, "Flintstone", "Between a rock...");
-            bk3.SetTrans();
+            SchoolProject sp3 = new SchoolProject(195, "Balbach", "Web Applications");
 
-            Console.WriteLine("Please enter the book ID: ");
+            Console.WriteLine("Please enter the class ID(number only): ");
             int tempID = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter the author name: ");
-            string tempAuthor = Console.ReadLine();
-            Console.WriteLine("Please enter the book name: ");
+            Console.WriteLine("Please enter the instructor's name: ");
+            string tempInstructor = Console.ReadLine();
+            Console.WriteLine("Please enter the class name: ");
             string tempTitle = Console.ReadLine();
-            book bk4 = new book(tempID, tempAuthor, tempTitle);
-            bk4.SetTrans();
+            SchoolProject sp4 = new SchoolProject(tempID, tempInstructor, tempTitle);
 
-            displayMembers(bk1);
-            displayMembers(bk2);
-            displayMembers(bk3);
-            displayMembers(bk4);
+            displayMembers(sp1);
+            displayMembers(sp2);
+            displayMembers(sp3);
+            displayMembers(sp4);
 
         }
-        static void displayMembers(book item)
+        static void displayMembers(SchoolProject item)
         {
-            Console.WriteLine($"New Trans: {item.GetTrans()}");
-            Console.WriteLine($"Book ID: {item.Id}");
-            Console.WriteLine($"Book Author: {item.Author}");
-            Console.WriteLine($"Book Title: {item.Title}");
+            Console.WriteLine($"Class List: ");
+            Console.WriteLine($"Class ID: {item.Id}");
+            Console.WriteLine($"Instructor: {item.Instructor}");
+            Console.WriteLine($"Class Title: {item.Title}");
 
         }
     }
-    class book
+    class SchoolProject
     {
         private int _Id;
-        private string _Author;
+        private string _Instructor;
         private string _Title;
-        private static int _transactions;
 
-        public book() { }
+        public SchoolProject() { }
 
-        public book(int id, string author, string title, int transactions = 0)
+        public SchoolProject(int id, string Instructor, string title)
         {
             _Id = id;
-            _Author = author;
+            _Instructor = Instructor;
             _Title = title;
-            _transactions = transactions;
         }
 
         public int Id
@@ -80,19 +74,10 @@ namespace bookStore
             set { _Title = value; }
         }
 
-        public string Author
+        public string Instructor
         {
-            get { return _Author; }
-            set { _Author = value; }
-        }
-        public void SetTrans()
-        {
-            _transactions++;
-        }
-
-        public int GetTrans()
-        {
-            return _transactions;
+            get { return _Instructor; }
+            set { _Instructor = value; }
         }
     }
 }

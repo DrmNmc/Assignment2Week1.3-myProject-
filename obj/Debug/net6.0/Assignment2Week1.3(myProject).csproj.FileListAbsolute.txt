@@ -1,0 +1,15 @@
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.3(myProject).exe
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.3(myProject).deps.json
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.3(myProject).runtimeconfig.json
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.3(myProject).dll
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.3(myProject).pdb
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.3(myProject).csproj.AssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.3(myProject).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.3(myProject).AssemblyInfoInputs.cache
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.3(myProject).AssemblyInfo.cs
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.3(myProject).csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.3(myProject).dll
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\refint\Assignment2Week1.3(myProject).dll
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.3(myProject).pdb
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.3(myProject).genruntimeconfig.cache
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\ref\Assignment2Week1.3(myProject).dll
