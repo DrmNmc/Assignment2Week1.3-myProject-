@@ -1,0 +1,15 @@
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.exe
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.deps.json
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.runtimeconfig.json
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.dll
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\bin\Debug\net6.0\Assignment2Week1.pdb
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.csproj.AssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.AssemblyInfoInputs.cache
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.AssemblyInfo.cs
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.dll
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\refint\Assignment2Week1.dll
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.pdb
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\Assignment2Week1.genruntimeconfig.cache
+C:\Users\dylan\OneDrive\Documents\School\195-WebApp\Lesson2\Assignment2Week1\obj\Debug\net6.0\ref\Assignment2Week1.dll

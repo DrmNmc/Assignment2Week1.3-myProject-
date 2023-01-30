@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection.Metadata;
+using System.Transactions;
 
 namespace bookStore
 {
@@ -9,11 +10,13 @@ namespace bookStore
         {
 
             book bk1 = new book();
+            bk1.SetTrans();
             bk1.Id = 1;
             bk1.Author = ("Miller");
             bk1.Title = ("The Book");
             
             book bk2 = new book();
+            bk2.SetTrans();
             Console.WriteLine("Please enter the book ID: ");
             bk2.Id = int.Parse(Console.ReadLine());
             Console.WriteLine("Please enter the author name: ");
@@ -22,6 +25,7 @@ namespace bookStore
             bk2.Title = Console.ReadLine();
 
             book bk3 = new book(3, "Flintstone", "Between a rock...");
+            bk3.SetTrans();
 
             Console.WriteLine("Please enter the book ID: ");
             int tempID = int.Parse(Console.ReadLine());
@@ -30,6 +34,7 @@ namespace bookStore
             Console.WriteLine("Please enter the book name: ");
             string tempTitle = Console.ReadLine();
             book bk4 = new book(tempID, tempAuthor, tempTitle);
+            bk4.SetTrans();
 
             displayMembers(bk1);
             displayMembers(bk2);
@@ -39,7 +44,7 @@ namespace bookStore
         }
         static void displayMembers(book item)
         {
-            Console.WriteLine("Here's your membership information");
+            Console.WriteLine($"New Trans: {item.GetTrans()}");
             Console.WriteLine($"Book ID: {item.Id}");
             Console.WriteLine($"Book Author: {item.Author}");
             Console.WriteLine($"Book Title: {item.Title}");
@@ -51,14 +56,16 @@ namespace bookStore
         private int _Id;
         private string _Author;
         private string _Title;
+        private static int _transactions;
 
         public book() { }
 
-        public book(int id, string author, string title)
+        public book(int id, string author, string title, int transactions = 0)
         {
             _Id = id;
             _Author = author;
             _Title = title;
+            _transactions = transactions;
         }
 
         public int Id
@@ -77,6 +84,15 @@ namespace bookStore
         {
             get { return _Author; }
             set { _Author = value; }
+        }
+        public void SetTrans()
+        {
+            _transactions++;
+        }
+
+        public int GetTrans()
+        {
+            return _transactions;
         }
     }
 }
